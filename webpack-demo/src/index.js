@@ -1,7 +1,10 @@
+import printMe from "./print";
+
 function component(){
   const element = document.createElement('div');
   
-  element.innerHTML = myName('Ye');
+  element.innerHTML = 'this is working still';
+  printMe();
 
   return element;
 }
